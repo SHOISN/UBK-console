@@ -1,4 +1,4 @@
-video { 
+video {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -11,20 +11,20 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-.stopfade { 
+.stopfade {
   opacity: .5;
 }
 @media screen and (max-device-width: 800px) {
   html { background: url('img/lol.jpg') #000 no-repeat center center fixed; }
   #bgvid { display: none; }
 }
-body { 
+body {
   font-size: 11px;
 }
-p { 
+p {
   margin-top: 0;
 }
-button { 
+button {
   border: 0;
   padding: 0;
 }
@@ -34,13 +34,14 @@ input {
   border: 0;
   border: none;
 }
-.container { 
+.container {
   height: auto;
   overflow: hidden;
   max-width: 810px;
   min-width: 300px;
   opacity: 0.75;
-  background: #A2A2A2;
+  /* background: #A2A2A2; */
+  background: pink;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -49,15 +50,15 @@ input {
   color: white;
   padding: 12px 16px 14px;
 }
-.head { 
+.head {
   height: auto;
   overflow: hidden;
   margin-bottom: 16px;
 }
-.closex { 
+.closex {
   float: right;
 }
-#content { 
+#content {
   min-height: 576px;
   overflow: hidden;
   border: 0;
@@ -83,7 +84,7 @@ input {
     width: auto;
     overflow: hidden;
 }
-.left input { 
+.left input {
   height: 24px;
   border: 0;
   opacity: 1;
@@ -95,7 +96,7 @@ input {
   text-align: left;
   width: 800px;
 }
-.right button { 
+.right button {
   width: 64px;
   height: 24px;
   background: #8A8989;
@@ -109,10 +110,8 @@ input {
   padding-left: 5px;
   margin-left: 15px;
 }
-.scale { 
+.scale {
   float: right;
   margin-right: -11px;
   margin-bottom: -11px;
 }
-
-
