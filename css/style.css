@@ -40,8 +40,7 @@ input {
   max-width: 810px;
   min-width: 300px;
   opacity: 0.75;
-  /* background: #A2A2A2; */
-  background: pink;
+  background: #A2A2A2;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
