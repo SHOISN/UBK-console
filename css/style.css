@@ -1,0 +1,118 @@
+video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url('img/lol.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+  opacity: .5;
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url('img/lol.jpg') #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+body { 
+  font-size: 11px;
+}
+p { 
+  margin-top: 0;
+}
+button { 
+  border: 0;
+  padding: 0;
+}
+input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+}
+.container { 
+  height: auto;
+  overflow: hidden;
+  max-width: 810px;
+  min-width: 300px;
+  opacity: 0.75;
+  background: #A2A2A2;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  font-family: LucidaConsole, ArialNarrow, sans-serif;
+  font-weight: 100;
+  color: white;
+  padding: 12px 16px 14px;
+}
+.head { 
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.closex { 
+  float: right;
+}
+#content { 
+  min-height: 576px;
+  overflow: hidden;
+  border: 0;
+  opacity: 1;
+  background: #3E3E3E;
+  box-shadow: inset -1px -1px 0px 0px rgba(254,254,254,0.68), inset 1px 1px 0px 0px rgba(0,0,0,0.68);
+  padding: 5px;
+  font-family: LucidaConsole, ArialNarrow, sans-serif;
+  color: #FEFEFE;
+  line-height: 12px;
+  text-align: left;
+}
+.footer {
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.right {
+    width: 80px;
+    float: right;
+}
+.left {
+    width: auto;
+    overflow: hidden;
+}
+.left input { 
+  height: 24px;
+  border: 0;
+  opacity: 1;
+  background: #3E3E3E;
+  box-shadow: inset -1px -1px 0px 0px rgba(254,254,254,0.68), inset 1px 1px 0px 0px rgba(0,0,0,0.68);
+  font-family: LucidaConsole, ArialNarrow, sans-serif;
+  color: #FEFEFE;
+  line-height: 10px;
+  text-align: left;
+  width: 800px;
+}
+.right button { 
+  width: 64px;
+  height: 24px;
+  background: #8A8989;
+  opacity: 1;
+  box-shadow: inset 1px 1px 0px 0px #FEFEFE, inset -1px -1px 0px 0px rgba(0,0,0,0.68);
+  border: 0;
+  font-family: LucidaConsole, ArialNarrow, sans-serif;
+  color: #FEFEFE;
+  line-height: 10px;
+  text-align: left;
+  padding-left: 5px;
+  margin-left: 15px;
+}
+.scale { 
+  float: right;
+  margin-right: -11px;
+  margin-bottom: -11px;
+}
+
+
